@@ -1,0 +1,26 @@
+{
+    "name": "mirxan/contact",
+    "description": "this package is for sending the message to the email",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nemtaov Muhammadamin",
+            "email": "mirxan085@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mirxan\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mirxan\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
